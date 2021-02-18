@@ -1,0 +1,69 @@
+.section_component {
+    width: 45em;
+    background: $white;
+    box-shadow: 0px 6px 8px 1px rgba(205,215,238,0.93);
+    border-radius: 1em;
+    padding: 3.5em;
+
+
+    &_top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        &--views {
+            text-transform: uppercase;
+            font-size: 1.5em;
+            color: $greyText;   
+            letter-spacing: 1.5px;
+            font-weight: 600;
+
+        }
+
+        &--price {
+            font-size: 3.7em;
+            color: $ctaBg;
+
+            span {
+                font-size: 15px;
+                color: $greyText;   
+
+            }
+        }
+
+        &--slider {
+            width: 100%;
+
+            input {
+                -webkit-appearance: none;
+                width: 100%;
+                height: 10px;
+                border-radius: 5px;  
+                background: $toggleBg;
+                outline: none;
+                opacity: 0.7;
+                transition: opacity .2s;
+            }
+        }
+
+        &--billing {    
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+
+
+
+
+
+
+
+
+    &_bottom {
+
+    }
+    
+}
