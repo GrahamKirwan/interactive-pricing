@@ -265,5 +265,11 @@ section {
   background: #293356;
   text-decoration: none;
   border-radius: 25px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.section_component_bottom_right--btn:hover {
+  background: #10d5c2;
 }
 /*# sourceMappingURL=style.css.map */
