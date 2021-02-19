@@ -109,7 +109,7 @@ section {
   width: 100%;
 }
 
-.section_component_top--slider input[type=range] {
+.section_component_top--slider #myRange {
   -webkit-appearance: none;
   -moz-appearance: none;
        appearance: none;
@@ -120,8 +120,8 @@ section {
   outline: none;
   position: relative;
   cursor: pointer;
-  -webkit-transition: opacity .2s;
-  transition: opacity .2s;
+  -webkit-transition: all .2s;
+  transition: all .2s;
   background: -webkit-gradient(linear, left top, right top, from(#a5f3eb), color-stop(50%, #a5f3eb), color-stop(0%, #eaeefb), to(#eaeefb));
   background: linear-gradient(to right, #a5f3eb 0%, #a5f3eb 50%, #eaeefb 0%, #eaeefb 100%);
 }
